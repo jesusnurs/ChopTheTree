@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 34f7dfd13cf991b408e2ae13109598d0
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 25
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Standing Melee Attack Horizontal(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:Mesh
+      parentName: Standing Melee Attack Horizontal(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:Hips
+      parentName: Standing Melee Attack Horizontal(Clone)
+      position: {x: 2.910383e-11, y: 0.0049071917, z: 0.00024714298}
+      rotation: {x: 0.00000000873115, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: lumberjack:LeftUpLeg
+      parentName: lumberjack:Hips
+      position: {x: -0.0010918922, y: -0.0008423501, z: -0.00021978411}
+      rotation: {x: -0.000000008030265, y: -0.029934661, z: 0.9995519, w: -0.00000002353399}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: lumberjack:LeftLeg
+      parentName: lumberjack:LeftUpLeg
+      position: {x: 1.6653345e-18, y: 0.0024576464, z: -6.1443293e-13}
+      rotation: {x: 0.032279227, y: 0.0025442797, z: 0.07853613, w: 0.99638534}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000004}
+    - name: lumberjack:LeftFoot
+      parentName: lumberjack:LeftLeg
+      position: {x: 6.6371285e-13, y: 0.0011871693, z: 2.0349465e-13}
+      rotation: {x: 0.49021176, y: 0.02981296, z: -0.016780507, w: 0.8709317}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: lumberjack:LeftToeBase
+      parentName: lumberjack:LeftFoot
+      position: {x: -6.2067382e-12, y: 0.00061892037, z: 3.5169017e-11}
+      rotation: {x: 0.25066322, y: -0.09417743, z: 0.0245095, w: 0.9631707}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000002}
+    - name: lumberjack:LeftToe_End
+      parentName: lumberjack:LeftToeBase
+      position: {x: -9.0135256e-14, y: 0.0003001096, z: -5.259598e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightUpLeg
+      parentName: lumberjack:Hips
+      position: {x: 0.0010918922, y: -0.0008423501, z: -0.00022307831}
+      rotation: {x: -0.000000022921393, y: -0.03015758, z: 0.99954516, w: -0.000000012338398}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: lumberjack:RightLeg
+      parentName: lumberjack:RightUpLeg
+      position: {x: 4.440892e-18, y: 0.0024577125, z: -7.80726e-13}
+      rotation: {x: 0.03644969, y: -0.0028744969, z: -0.07856448, w: 0.99623835}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: lumberjack:RightFoot
+      parentName: lumberjack:RightLeg
+      position: {x: -7.848074e-12, y: 0.0011872597, z: -7.3211504e-14}
+      rotation: {x: 0.49152216, y: -0.029076856, z: 0.016423173, w: 0.8702246}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: lumberjack:RightToeBase
+      parentName: lumberjack:RightFoot
+      position: {x: 4.859153e-12, y: 0.0006304128, z: 2.609554e-11}
+      rotation: {x: 0.2458471, y: 0.09394195, z: -0.023946695, w: 0.9644484}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000006}
+    - name: lumberjack:RightToe_End
+      parentName: lumberjack:RightToeBase
+      position: {x: 1.2993092e-13, y: 0.00030877386, z: 1.5077547e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:Spine
+      parentName: lumberjack:Hips
+      position: {x: -0, y: 0.0015162306, z: -0.00019164685}
+      rotation: {x: -0.06282368, y: 0.000000022871388, z: 0.0000000072719963, w: 0.99802464}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: lumberjack:Spine1
+      parentName: lumberjack:Spine
+      position: {x: -0, y: 0.0017830103, z: -8.6032735e-12}
+      rotation: {x: 0.000000014901161, y: -0.00000004546863, z: -0.000000011614173,
+        w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: lumberjack:Spine2
+      parentName: lumberjack:Spine1
+      position: {x: -0, y: 0.0020377268, z: 1.067686e-11}
+      rotation: {x: -0.000000014901161, y: -7.2991746e-10, z: 0.000000005774819, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: lumberjack:LeftShoulder
+      parentName: lumberjack:Spine2
+      position: {x: -0.0015327159, y: 0.0019118931, z: -0.000051052466}
+      rotation: {x: 0.5462332, y: -0.4444265, z: 0.56456566, w: 0.43055782}
+      scale: {x: 0.9999999, y: 1.0000005, z: 1.0000004}
+    - name: lumberjack:LeftArm
+      parentName: lumberjack:LeftShoulder
+      position: {x: 7.1008417e-13, y: 0.0032048963, z: -6.401366e-12}
+      rotation: {x: -0.10482654, y: 0.0025838166, z: -0.024505198, w: 0.99418527}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.9999998}
+    - name: lumberjack:LeftForeArm
+      parentName: lumberjack:LeftArm
+      position: {x: -1.4823036e-12, y: 0.0019561755, z: 6.091261e-13}
+      rotation: {x: -0.02273657, y: -0.0001488379, z: 0.006546629, w: 0.99972004}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: lumberjack:LeftHand
+      parentName: lumberjack:LeftForeArm
+      position: {x: 6.24499e-14, y: 0.0037503643, z: -1.5749846e-13}
+      rotation: {x: 0.042445596, y: 0.18772683, z: -0.012911562, w: -0.9812189}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: lumberjack:LeftHandThumb1
+      parentName: lumberjack:LeftHand
+      position: {x: 0.00038288874, y: 0.00053726585, z: 0.00017288141}
+      rotation: {x: 0.012186134, y: -0.019189177, z: 0.35286233, w: -0.9353991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:LeftHandThumb2
+      parentName: lumberjack:LeftHandThumb1
+      position: {x: 0.000021386975, y: 0.0005451934, z: 9.243424e-12}
+      rotation: {x: 0.03514921, y: 0.00020710741, z: 0.002049907, w: 0.99937993}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: lumberjack:LeftHandThumb3
+      parentName: lumberjack:LeftHandThumb2
+      position: {x: 0.000028702996, y: 0.00032831082, z: 6.460499e-12}
+      rotation: {x: 0.004103432, y: -0.0010742845, z: -0.1257456, w: 0.99205345}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: lumberjack:LeftHandThumb4
+      parentName: lumberjack:LeftHandThumb3
+      position: {x: -0.000050089926, y: 0.00020884885, z: -4.6127433e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:LeftHandRing1
+      parentName: lumberjack:LeftHand
+      position: {x: -0.00044937994, y: 0.001641603, z: -0.0000113248725}
+      rotation: {x: -0.077668965, y: 0.005150406, z: 0.03935298, w: -0.99618894}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: lumberjack:LeftHandRing2
+      parentName: lumberjack:LeftHandRing1
+      position: {x: -0.0000008151745, y: 0.0001142525, z: 1.9745295e-12}
+      rotation: {x: 0.036493387, y: -0.0002460628, z: -0.0035618057, w: -0.9993276}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: lumberjack:LeftHandRing3
+      parentName: lumberjack:LeftHandRing2
+      position: {x: 0.00000025399933, y: 0.000102893784, z: 9.121348e-13}
+      rotation: {x: 0.03885553, y: 0.0003207875, z: -0.0019201074, w: -0.999243}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: lumberjack:LeftHandRing4
+      parentName: lumberjack:LeftHandRing3
+      position: {x: 0.0000005611762, y: 0.00006250064, z: 3.268392e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:LeftHandIndex1
+      parentName: lumberjack:LeftHand
+      position: {x: 0.00036153404, y: 0.0015802532, z: -0.000006913984}
+      rotation: {x: -0.05996497, y: 0.0013223883, z: 0.022009257, w: -0.997957}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: lumberjack:LeftHandIndex2
+      parentName: lumberjack:LeftHandIndex1
+      position: {x: 0.00000019141598, y: 0.0001986099, z: -2.0964563e-13}
+      rotation: {x: 0.02207457, y: -0.00000007753258, z: 0.00000016570989, w: -0.9997564}
+      scale: {x: 0.99999976, y: 1.0000007, z: 1.0000002}
+    - name: lumberjack:LeftHandIndex3
+      parentName: lumberjack:LeftHandIndex2
+      position: {x: 0.00000036346063, y: 0.00019269447, z: 3.6888268e-14}
+      rotation: {x: -0.040731072, y: 0.000016438753, z: 0.0008199533, w: -0.9991698}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: lumberjack:LeftHandIndex4
+      parentName: lumberjack:LeftHandIndex3
+      position: {x: -0.0000005548763, y: 0.00014123166, z: -6.7578386e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:LeftHandMiddle1
+      parentName: lumberjack:LeftHand
+      position: {x: 0.00008784591, y: 0.001624009, z: -0.0000054747097}
+      rotation: {x: 0.0126713775, y: -0.00030359626, z: -0.023946162, w: 0.99963295}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: lumberjack:LeftHandMiddle2
+      parentName: lumberjack:LeftHandMiddle1
+      position: {x: 0.00000053065236, y: 0.00025557724, z: -2.1755707e-12}
+      rotation: {x: 0.02605269, y: 0.000000040803567, z: -0.0000000048057696, w: 0.99966055}
+      scale: {x: 1, y: 1.0000004, z: 1.0000006}
+    - name: lumberjack:LeftHandMiddle3
+      parentName: lumberjack:LeftHandMiddle2
+      position: {x: 0.000000068968525, y: 0.0002238396, z: -2.9612535e-13}
+      rotation: {x: -0.038751815, y: -0.000000041715, z: -0.000000023882027, w: -0.9992489}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
+    - name: lumberjack:LeftHandMiddle4
+      parentName: lumberjack:LeftHandMiddle3
+      position: {x: -0.00000059962065, y: 0.00018102753, z: 7.148815e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:Neck
+      parentName: lumberjack:Spine2
+      position: {x: -0, y: 0.0022924407, z: -7.362404e-11}
+      rotation: {x: -0.17425649, y: 0.0000000038954946, z: 0.000000003650929, w: 0.9847003}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: lumberjack:Head
+      parentName: lumberjack:Neck
+      position: {x: -0, y: 0.00073825236, z: 0.001036799}
+      rotation: {x: -0.000000029802322, y: 0.000000023283063, z: -0.000000017462298,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: lumberjack:HeadTop_End
+      parentName: lumberjack:Head
+      position: {x: -0, y: 0.0018442118, z: 0.002590005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightShoulder
+      parentName: lumberjack:Spine2
+      position: {x: 0.0015327159, y: 0.0019111586, z: -0.00004524069}
+      rotation: {x: -0.5473981, y: -0.44349888, z: 0.5636397, w: -0.4312475}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: lumberjack:RightArm
+      parentName: lumberjack:RightShoulder
+      position: {x: -7.3319166e-13, y: 0.0032048963, z: -6.398244e-12}
+      rotation: {x: 0.10597719, y: 0.0017077923, z: -0.016022116, w: -0.9942381}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightForeArm
+      parentName: lumberjack:RightArm
+      position: {x: 2.6156715e-14, y: 0.0019558605, z: 1.7383716e-12}
+      rotation: {x: -0.021689279, y: -0.000021214362, z: 0.00097290537, w: 0.9997643}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: lumberjack:RightHand
+      parentName: lumberjack:RightForeArm
+      position: {x: -6.091946e-14, y: 0.003750371, z: 9.855894e-14}
+      rotation: {x: -0.03961437, y: 0.1730954, z: -0.015025277, w: 0.9839935}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: lumberjack:RightHandMiddle1
+      parentName: lumberjack:RightHand
+      position: {x: -0.00008163907, y: 0.0016128006, z: -0.0000072928287}
+      rotation: {x: -0.007773889, y: -0.00052694965, z: 0.0676021, w: 0.9976819}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000005}
+    - name: lumberjack:RightHandMiddle2
+      parentName: lumberjack:RightHandMiddle1
+      position: {x: -0.00000048984384, y: 0.00023135848, z: -1.7477908e-13}
+      rotation: {x: 0.03898284, y: 0.00000009854555, z: 0.0000000922664, w: 0.99923986}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: lumberjack:RightHandMiddle3
+      parentName: lumberjack:RightHandMiddle2
+      position: {x: 0.0000015078244, y: 0.00024046218, z: 1.1662893e-13}
+      rotation: {x: -0.0030098478, y: 0.000000033134082, z: 0.000000004521026, w: 0.9999955}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: lumberjack:RightHandMiddle4
+      parentName: lumberjack:RightHandMiddle3
+      position: {x: -0.0000010179845, y: 0.00018875164, z: -1.3943291e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightHandThumb1
+      parentName: lumberjack:RightHand
+      position: {x: -0.00036658405, y: 0.0005407413, z: 0.000168101}
+      rotation: {x: -0.0073281177, y: -0.013510665, z: 0.36363417, w: 0.931415}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: lumberjack:RightHandThumb2
+      parentName: lumberjack:RightHandThumb1
+      position: {x: -0.0000037445502, y: 0.00053964247, z: -2.8909186e-12}
+      rotation: {x: 0.025609972, y: -0.0019645577, z: -0.03316833, w: 0.99911964}
+      scale: {x: 1.0000001, y: 0.9999996, z: 0.9999997}
+    - name: lumberjack:RightHandThumb3
+      parentName: lumberjack:RightHandThumb2
+      position: {x: -0.000044363525, y: 0.00032963636, z: 1.1453194e-12}
+      rotation: {x: -0.013299013, y: -0.0026970727, z: 0.14535153, w: 0.9892871}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+    - name: lumberjack:RightHandThumb4
+      parentName: lumberjack:RightHandThumb3
+      position: {x: 0.000048108075, y: 0.00021461135, z: 2.6690317e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightHandIndex1
+      parentName: lumberjack:RightHand
+      position: {x: -0.00036324878, y: 0.0016151457, z: 0.0000039448114}
+      rotation: {x: 0.017493667, y: 0.00030818573, z: 0.017614871, w: 0.9996917}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: lumberjack:RightHandIndex2
+      parentName: lumberjack:RightHandIndex1
+      position: {x: -0.000003101609, y: 0.00017802055, z: 5.5442093e-13}
+      rotation: {x: 0.031462707, y: -0.000000048894425, z: -0.0000000011332302, w: 0.999505}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1.0000001}
+    - name: lumberjack:RightHandIndex3
+      parentName: lumberjack:RightHandIndex2
+      position: {x: -0.00000062676247, y: 0.00018344444, z: 7.305045e-14}
+      rotation: {x: 0.03920541, y: 0.00025968364, z: 0.0054978654, w: 0.999216}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: lumberjack:RightHandIndex4
+      parentName: lumberjack:RightHandIndex3
+      position: {x: 0.0000037283721, y: 0.00013308892, z: -4.157652e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lumberjack:RightHandRing1
+      parentName: lumberjack:RightHand
+      position: {x: 0.00044488782, y: 0.0015861506, z: 0.0000024589579}
+      rotation: {x: 0.0045973565, y: -0.00003233551, z: -0.007002805, w: 0.9999649}
+      scale: {x: 1.0000002, y: 1, z: 1.0000007}
+    - name: lumberjack:RightHandRing2
+      parentName: lumberjack:RightHandRing1
+      position: {x: -0.0000021486217, y: 0.0001264015, z: -1.4186385e-12}
+      rotation: {x: 0.03872388, y: -0.00070348644, z: 0.0029812253, w: 0.9992452}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999994}
+    - name: lumberjack:RightHandRing3
+      parentName: lumberjack:RightHandRing2
+      position: {x: -0.00000088348196, y: 0.00012487372, z: -2.502931e-13}
+      rotation: {x: 0.0377178, y: 0.00086700404, z: 0.013720765, w: 0.99919385}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: lumberjack:RightHandRing4
+      parentName: lumberjack:RightHandRing3
+      position: {x: 0.000003032103, y: 0.00007550586, z: 3.776046e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
